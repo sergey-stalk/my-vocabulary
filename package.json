@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.12",
     "@types/react": "16.9.5",
@@ -10,7 +12,8 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
-    "typescript": "3.6.4"
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,6 +23,12 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   },
   "browserslist": {
     "production": [
